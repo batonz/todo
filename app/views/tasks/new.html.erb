@@ -1,5 +1,5 @@
 <h1>タスク新規登録</h1>
+<%= link_to '< 一覧にもどる', tasks_path, class: 'nav-link' %>
 <div class="nav justify-content-end">
-  <%= link_to '一覧', tasks_path, class: 'nav-link' %>
   <%= render partial: 'form', locals: { task: @task } %>
 </div>
